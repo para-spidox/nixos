@@ -108,7 +108,10 @@
   #   enableSSHSupport = true;
   # };
 
-  programs.git.enable = true;
+  programs = {
+    git.enable = true;
+    neovim.enable = true;
+  };
 
   # List services that you want to enable:
 
