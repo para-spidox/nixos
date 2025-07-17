@@ -1,6 +1,10 @@
 { config, pkgs, ... }:
 
 {
+	imports =
+	[
+		./server/minecraft.nix
+	];
 	security.acme = {
 		acceptTerms = true;
 		defaults.email = "";
