@@ -40,8 +40,9 @@
   programs.firefox.enable = true;
 
   environment.systemPackages = with pkgs; [
-    thunderbird
     discord
+    nextcloud-client
+    thunderbird
   ];
   
 }
