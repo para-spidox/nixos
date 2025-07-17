@@ -7,7 +7,7 @@
 {
   imports =
     [ # Include the results of the hardware scan.
-      ./desktop.nix
+      #./desktop.nix
       ./hardware-configuration.nix
       ./server.nix
     ];
@@ -64,6 +64,7 @@
     htop
     lf
     tmux
+    tree
     vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
     wget
   ];
