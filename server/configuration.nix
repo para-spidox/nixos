@@ -3,8 +3,8 @@
 {
 	imports =
 	[
-		./server/minecraft.nix
-		./server/nextcloud.nix
+		./minecraft.nix
+		./nextcloud.nix
 	];
 	security.acme = {
 		acceptTerms = true;

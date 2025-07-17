@@ -9,7 +9,7 @@
     [ # Include the results of the hardware scan.
       #./desktop.nix
       ./hardware-configuration.nix
-      ./server.nix
+      ./server/configuration.nix
     ];
 
   # Bootloader.
