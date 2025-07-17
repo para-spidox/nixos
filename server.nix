@@ -12,14 +12,14 @@
 		};
 		nginx = {
 			enable = true;
-			#virtualHosts = {
-			#	"test.spidox.ie" = {
+			virtualHosts = {
+				"test.spidox.ie" = {
 			#		#addSSL = true;
 			#		#enableACME = true;
-			#		root = "/var/www/test.spidox.ie";
-			#	};
-			#};
+					root = "/var/www/test.spidox.ie";
+				};
+			};
 		};
 	};
-};
+}
 
