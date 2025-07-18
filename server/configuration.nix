@@ -6,6 +6,8 @@
 		./minecraft.nix
 		./nextcloud.nix
 		./onlyoffice.nix
+		./paperless-ngx.nix
+		./tailscale.nix
 	];
 	security.acme = {
 		acceptTerms = true;
