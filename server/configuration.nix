@@ -5,6 +5,7 @@
 	[
 		./minecraft.nix
 		./nextcloud.nix
+		./onlyoffice.nix
 	];
 	security.acme = {
 		acceptTerms = true;
