@@ -3,6 +3,7 @@
 {
 	imports =
 	[
+		./jellyfin.nix
 		./minecraft.nix
 		./nextcloud.nix
 		./onlyoffice.nix
@@ -14,10 +15,6 @@
 		defaults.email = "";
 	};
 	services = {
-		jellyfin = {
-			enable = true;
-			openFirewall = true;
-		};
 		nginx = {
 			enable = true;
 			virtualHosts = {
